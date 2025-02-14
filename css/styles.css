@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+}
+
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4rem;
+  border: solid red 2px;
+  background-image: url(../assets/images/background-desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.content-form {
+  border: solid yellow 2px;
+}
+
+.fomr-ticked {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  border: solid blue 2px;
+}
